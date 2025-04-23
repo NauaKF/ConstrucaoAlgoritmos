@@ -64,9 +64,10 @@ public class Prova {
 
             // Método de saída
             System.out.println("\nDeseja realizar outra operação? s - sim, qualquer tecla para sair.");
-            escolhaSaida = scn.next().charAt(0);
+            escolhaSaida = scn.next().toLowerCase().charAt(0);
 
-        } while (escolhaSaida == 's' || escolhaSaida == 'S');
+        } while (escolhaSaida == 's');
+
 
         scn.close(); 
     }

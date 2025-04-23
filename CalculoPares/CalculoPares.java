@@ -9,7 +9,7 @@ public class CalculoPares{
         System.out.println("Digite o valor de parada: ");
         valor = scn.nextInt();
 
-        for(i=2; i<=valor; i+=2){
+        for(i=0; i<=valor; i+=2){
                 a += i;
                 System.out.println("= " + a);        
         }
